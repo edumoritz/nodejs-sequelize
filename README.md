@@ -1,13 +1,14 @@
-Rotas Login:
-http://localhost:3000/auth/signin
-http://localhost:3000/auth/signup
+Rotas Login:<br>
+http://localhost:3000/auth/signin<br>
+http://localhost:3000/auth/signup<br>
 
-Rotas Autenticadas:
-http://localhost:3000/v1/users
-http://localhost:3000/v1/products
+Rotas Autenticadas:<br>
+http://localhost:3000/v1/users<br>
+http://localhost:3000/v1/products<br>
 
 Comandos utilizados:
 
+```js
 // Criação de tabela
 yarn db:create
 
@@ -29,6 +30,8 @@ yarn db:seeds
 
 // Exemplo de alteração da model
 yarn db:g:migration addColumnValueTableProducts
+
+```
 
 // Guia:
 https://blog.echobind.com/a-guide-for-restful-apis-with-node-sequelize-postgres-63636d026d5d
